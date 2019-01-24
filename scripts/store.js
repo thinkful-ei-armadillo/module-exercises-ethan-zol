@@ -16,14 +16,14 @@ const store = (function () {
 
   const findById = function (id) {
 
-    return items.find((i) => { return i.id === id; });
+    return this.items.find((i) => { return i.id === id; });
   };
 
   const addItem = function (name) {
 
     try {
       Item.validateName(name);
-      items.push(Item.create(name));
+      this.items.push(Item.create(name));
     } catch (err) {
       console.log('Cannot add item:', err.message);
     }
