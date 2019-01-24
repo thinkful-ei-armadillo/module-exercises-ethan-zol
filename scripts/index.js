@@ -22,8 +22,8 @@ $(document).ready(function() {
 
 });
 
-console.log(store);
-console.log(foo);
+// console.log(store);
+// console.log(foo);
 
-console.log(Item);
-console.log(foo);
+// console.log(Item);
+// console.log(foo);
