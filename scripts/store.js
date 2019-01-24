@@ -62,5 +62,6 @@ const store = (function () {
     findById,
     findAndToggleChecked,
     findAndDelete,
+    findAndUpdateName,
   };
 }());
